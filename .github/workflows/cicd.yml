@@ -2,7 +2,7 @@ name: CI/CD - Build e Publicação no Docker Hub
 
 on:
   push:
-    branches: [ "main" ] # Roda apenas em pushs para a branch main
+    branches: [ "main" ] # Roda apenas em push para a branch main
   workflow_dispatch:      # Permite rodar manualmente
 
 jobs:
